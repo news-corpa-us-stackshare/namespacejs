@@ -9,6 +9,5 @@ EXAMPLE
 			console.log('Hi there!');
 		}
 	});
-
 })(window.spp.namespace);
 ```
