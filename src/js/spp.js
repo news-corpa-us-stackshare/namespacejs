@@ -24,7 +24,7 @@ window.spp.namespace = function namespace(name, object ) {
 				try {
 					eval(firstSegment);
 				} catch(e) {
-					eval(firstSegment + '= {}'); // will evauate to (example): SPP = {}
+					eval('window.' + firstSegment + '= {}'); // will evauate to (example): SPP = {}
 				}
 				break;
 			case lastSegment:
